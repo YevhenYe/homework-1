@@ -1,5 +1,35 @@
-/* :root{--text-color:#757575;
---title-color:#212121;
---accent-color:#2196f3;} */
+body {
+  background-color: #ffffff;
+  color: var(--text-color);
+}
 
-/* ul {list-style: none;} */
+.list {
+  list-style: none;
+}
+:root{--text-color:#757575;
+--title-color:#212121;
+--accent-color:#2196f3;
+--white-color:#ffffff;}
+
+
+
+
+
+/* logo */
+.logo {
+  color: #000000;}
+  .web{color:var(--accent-color);}
+/* сайт навигация */
+.list-nav .link{color: var(--title-color);}
+.list-nav .link:hover,
+.list-nav .link:focus{color:var(--accent-color);}
+.list-nav .current{color:var(--accent-color);}
+
+.contacts .link{color:var(--text-color);}
+
+/* hero*/
+
+.title-hero{color:var(--white-color);
+background-color: red;}
+.btn-hero{background-color: var(--accent-color);
+color:var(--white-color);}
